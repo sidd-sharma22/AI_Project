@@ -1,0 +1,5 @@
+Detection Method,Hulk No Defense,Hulk Evasive,Hulk Reqtimeout
+Decision Tree (DT),1.0,1.0,1.0
+Random Forest (RF),1.0,1.0,1.0
+Deep Neural Network (DNN),1.0,0.33,1.0
+Proposed Method (Autoencoder + XAI),0.95,0.95,0.95
