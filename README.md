@@ -35,12 +35,7 @@ Traditional Machine Learning Intrusion Detection Systems (IDS) rely heavily on *
 ├── 1. Paper.pdf                                # Original MDPI paper
 ├── requirements.txt                            # Python dependencies
 ├── README.md                                   # Comprehensive documentation
-├── dataset/                                    # Official USB-IDS-1 Parquet splits
-│   ├── USB-IDS-1-TRAIN.parquet                 # 70% split (3.36M flows)
-│   ├── USB-IDS-1-VALIDATION.parquet            # 15% split (721K flows)
-│   └── USB-IDS-1-TEST.parquet                  # 15% split (722K flows)
-├── notebooks/                                  # Jupyter Notebooks
-│   └── DDoS_XAI_Paper_Implementation.ipynb     # Master interactive reproduction notebook
+├── 4. DDoS_XAI_Paper_Implementation.ipynb     # Master interactive reproduction notebook
 ├── src/                                        # Modular Python Implementation
 │   ├── __init__.py
 │   ├── data_loader.py                          # Fast Parquet loader, cleaning & MinMaxScaler
@@ -50,13 +45,10 @@ Traditional Machine Learning Intrusion Detection Systems (IDS) rely heavily on *
 │   ├── baselines.py                            # Supervised baselines (DT, RF, DNN)
 │   ├── evaluate_and_plot.py                    # Generation of Figures 4–13 & metrics
 │   └── main.py                                 # Automated end-to-end pipeline runner
-├── output/
-│   ├── models/                                 # Trained model weights (autoencoder_best.pt)
-│   ├── figures/                                # Replicated Figures 4–13 (PNG format)
-│   └── table4_comparison.csv                   # Table 4 benchmark output
-└── presentation/
-    ├── presentation_slides.md                  # 12 slide deck with verbatim speaker scripts
-    └── viva_questions_and_answers.md           # 12 tough faculty Q&A answers
+└── output/
+    ├── figures/                                # Replicated Figures 4–13 (PNG format)
+    └── table4_comparison.csv                   # Table 4 benchmark output
+
 ```
 
 ---
